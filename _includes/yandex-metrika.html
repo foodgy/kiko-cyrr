@@ -1,0 +1,10 @@
+{% if site.yandex.metrika %}
+<!-- Yandex Metrika -->
+<script>
+(function(g,a,i){(a[i]=a[i]||[]).push(function(){try{a.yaCounter{{ site.yandex.metrika }}=new Ya.Metrika({id:{{ site.yandex.metrika }},clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true})
+}catch(c){}});var h=g.getElementsByTagName("script")[0],b=g.createElement("script"),e=function(){h.parentNode.insertBefore(b,h)
+};b.type="text/javascript";b.async=true;b.src="https://mc.yandex.ru/metrika/watch.js";
+if(a.opera=="[object Opera]"){g.addEventListener("DOMContentLoaded",e,false)
+}else{e()}})(document,window,"yandex_metrika_callbacks");
+</script>
+{% endif %}

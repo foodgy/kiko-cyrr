@@ -1,0 +1,64 @@
+# # # # # # # # # # # # #
+#   K i k o - C y r r   #
+# # # # # # # # # # # # #
+
+# Basic
+name:               Kiko Cyrr
+author:             #Author name
+description:        A clean, lightweight and minimalistic blog jekyll theme based on Kiko
+
+social:
+  twitter:          # Twitter account
+  github:           # GitHub account
+  linkedin:         # LinkedIn account
+
+# Google
+google:
+  analytics:        # Google Analytics ID
+  search-console:   # Search Console verification code
+
+# Yandex
+yandex:
+  metrika:          # Metrika ID
+  webmaster:        # Webmaster verification code
+
+# URL
+url:                http://toospot.ru
+baseurl:            ""
+
+permalink:          /:year-:month-:day/:title/
+
+# Markdown
+markdown:           kramdown
+
+# Navigation
+nav:
+# - name:           About
+#   href:           //toonspot.ru/about
+  - name:           Projects
+    href:           //toonspot.ru/projects
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         pages
+    values:
+      layout:       page
+  -
+    scope:
+      path:         ""
+      type:         posts
+    values:
+      layout:       post
+
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+gems:
+  - jekyll-sitemap
+  - jemoji
+# - jekyll-seo-tag
